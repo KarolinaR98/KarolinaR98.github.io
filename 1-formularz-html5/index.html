@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularz</title>
+</head>
+<body>
+    <form action="https://formspree.io/f/mleqykpl" method="post">
+
+       <label for="name">Imię: </label>
+       <input type="text" name="name" id="name"><br>
+
+       <label for="lastname">Nazwisko: </label>
+       <input type="text" name="lastname" id="lastname"><br>
+
+       <label for="email">Email: </label>
+       <input type="email" name="email" id="email"><br>
+
+       <label for="phone">Telefon: </label>
+       <input type="tel" name="phone" id="phone"><br>
+
+       <label for="city">Miasto: </label>
+       <select name="city" id="city">
+            <option value="Kraków">Kraków</option>
+            <option value="Warszawa">Warszawa</option>
+            <option value="Gdańsk">Gdańsk</option>
+       </select><br>
+
+       <label>Kobieta: 
+        <input type="radio" name="gender" value="female">
+       </label>
+       <label>Mężczyzna: 
+        <input type="radio" name="gender" value="male">
+       </label><br>
+
+       <label>Wyrażam zgodę na przetwarzanie danych osobowych.
+        <input type="checkbox">
+       </label><br>
+
+       <label for="message">Wiadomość:</label>
+       <textarea name="message" id="message"></textarea><br>
+
+       <input type="submit" value="Wyślij formularz">
+
+
+    </form>
+</body>
+</html>

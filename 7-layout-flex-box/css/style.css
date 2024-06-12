@@ -2,9 +2,15 @@
     margin: 0;
     color: #fff;
     text-align: center;
+    box-sizing: border-box;
+}
+
+html{
+    height: 100vh;
 }
 
 header, footer{
+    height: 10vh;
     width: 100%;
     padding: 15px;
 }
@@ -12,7 +18,7 @@ header, footer{
 section{
     display: flex;
     flex-wrap: wrap;
-    height: 500px;
+    height: 80vh;
 }
 
 .a-left{

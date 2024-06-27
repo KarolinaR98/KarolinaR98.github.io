@@ -1,0 +1,15 @@
+.heading-border{
+    width: 30%;
+    height: 2px;
+    margin: 10px auto;
+}
+
+.icon{
+    width: 200px;
+    height: 200px;
+    font-size: 100px;
+}
+
+span.position-relative{
+    top: 5px;
+}

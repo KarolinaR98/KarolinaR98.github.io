@@ -1,0 +1,20 @@
+.underline-heading{
+    width: 30%;
+    height: 2px;
+    margin: 10px auto;
+}
+
+.accordion-button{
+    display: block;
+    text-align: center;
+    color: #fd7e14;
+}
+
+.accordion-button:focus{
+    box-shadow: none;
+}
+
+.accordion-button:hover, .accordion-button:not(.collapsed){
+    text-decoration: underline;
+    color: gray;
+}
